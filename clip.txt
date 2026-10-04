@@ -1,0 +1,6 @@
+Moments the clip must show (ticked only when seen in my own demo playback):
+[x] 1. Title "FIVE NIGHTS AT FREDDY'S", the pizzeria stage with Freddy, Bonnie and Chica; the night clock shows 12 AM.
+[x] 2. The robots wake up and march off the stage toward the player; Foxy's on-screen hint shows he freezes while watched.
+[x] 3. Flashlight beam freezes robots in sparks, then the player's sword smashes them (sparks, pizza and plush drops).
+[x] 4. A robot reaches the player: full-screen jumpscare with scream.
+[x] 5. Minecraft mechanics: iron golem fights robots, TNT blows a crater, honk plush makes them dance (weak: the dance is short and hard to see); 6 AM chime and "You survived night 1!".

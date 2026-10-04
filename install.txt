@@ -1,0 +1,1 @@
+Install Minecraft Java 26.3 with Fabric Loader and Fabric API, drop the mod jar in your mods folder, and start a survival world. A pizzeria appears near spawn, zombies turn into robots, and the flashlight, plush and pizza are in the creative Tools tab.
