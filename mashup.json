@@ -1,8 +1,15 @@
 {
   "id": "sigf/minecraft-five-nights-at-freddy-s-takeover-b29",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Five Nights at Freddy's Takeover",
   "tagline": "Bring Five Nights at Freddy's into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Survive each night shift from 12 AM to 6 AM as Freddy, Bonnie, Chica and Foxy come off the stage to hunt you.",
+    "More robots show up every hour, and every zombie in the world turns into a pizzeria robot.",
+    "Foxy only sprints while you are not looking at him: stare at him to freeze him.",
+    "Robots drop pizza slices and sometimes a Honking Bear Plush: right-click the plush to make nearby robots dance.",
+    "The pizzeria appears right next to where you join, and the first night starts a few seconds later."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -30,10 +37,13 @@
       "strategy": "mrpack",
       "pack": {
         "src": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
-        "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
-        "sha256": "08ca945f22477758b936fcf56448139bfd8c5c1bd491b9effd09f7a231664ea9",
-        "size": 759911
-      }
+        "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.1/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+        "sha256": "2c8e386a9cc8a82818f2906feab929027cbc8f21b8c2b247145b16b03500e107",
+        "size": 760034
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
     }
   ],
   "launch": [
@@ -45,9 +55,9 @@
   "files": [
     {
       "name": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
-      "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
-      "sha256": "08ca945f22477758b936fcf56448139bfd8c5c1bd491b9effd09f7a231664ea9",
-      "size": 759911
+      "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.1/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+      "sha256": "2c8e386a9cc8a82818f2906feab929027cbc8f21b8c2b247145b16b03500e107",
+      "size": 760034
     }
   ],
   "source": {
@@ -64,7 +74,7 @@
     "id": "minecraft",
     "status": "draft"
   },
-  "built_at": "2026-10-05T18:57:42.466Z",
+  "built_at": "2026-10-05T21:59:40.497Z",
   "server": {
     "game": "minecraft",
     "mc": "26.3",
@@ -72,8 +82,5 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack"
-  },
-  "notes": [
-    "Install Minecraft Java 26.3 with Fabric Loader and Fabric API, drop the mod jar in your mods folder, and start a survival world. A pizzeria appears near spawn, zombies turn into robots, and the flashlight, plush and pizza are in the creative Tools tab."
-  ]
+  }
 }
