@@ -1,0 +1,79 @@
+{
+  "id": "sigf/minecraft-five-nights-at-freddy-s-takeover-b29",
+  "version": "1.0.0",
+  "name": "Five Nights at Freddy's Takeover",
+  "tagline": "Bring Five Nights at Freddy's into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "fivenightsatfreddys",
+      "role": "guest",
+      "label": "Five Nights at Freddy's",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+        "sha256": "08ca945f22477758b936fcf56448139bfd8c5c1bd491b9effd09f7a231664ea9",
+        "size": 759911
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b29.mrpack",
+      "sha256": "08ca945f22477758b936fcf56448139bfd8c5c1bd491b9effd09f7a231664ea9",
+      "size": 759911
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b29",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T18:57:42.466Z",
+  "server": {
+    "game": "minecraft",
+    "mc": "26.3",
+    "loader": "fabric@0.19.5",
+    "ram_gb": 2,
+    "max_players": 10,
+    "pack": "minecraft-five-nights-at-freddy-s-takeover-b29.mrpack"
+  },
+  "notes": [
+    "Install Minecraft Java 26.3 with Fabric Loader and Fabric API, drop the mod jar in your mods folder, and start a survival world. A pizzeria appears near spawn, zombies turn into robots, and the flashlight, plush and pizza are in the creative Tools tab."
+  ]
+}
